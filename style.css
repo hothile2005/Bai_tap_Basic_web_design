@@ -1,0 +1,23 @@
+nav{
+    background-color: #07507e;
+    padding: 20px;
+   
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+p{
+color: #e05a5a;
+font-size: 14px;
+
+}
+
+h1{
+    color: rgb(81, 81, 218);
+    font-size: 20px;
+   
+}
