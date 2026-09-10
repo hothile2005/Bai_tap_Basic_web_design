@@ -1,8 +1,8 @@
 tr.header {
-    color: blue;
+    background-color: blue;
     font-size: 14px;
     :hover {
-        color:rgb(0, 251, 255);
+       background-color:rgb(0, 251, 255);
     }
 }
 table {
@@ -10,24 +10,24 @@ table {
     margin: 0 auto;
 }
 table tr:nth-child(2){
-    color: pink;
+    background-color: pink;
     font-size: 14px;
     :hover {
-        color:rgb(0, 251, 255);
+       background-color:rgb(0, 251, 255);
     }
 }
 table tr:nth-child(3){
-    color: green;
+    background-color: green;
     font-size: 14px;  
     :hover {
-        color:rgb(0, 251, 255);
+        background-color:rgb(0, 251, 255);
     }
 }
 table tr:nth-child(4){
-    color: rgb(255, 0, 166);
+    background-color: rgb(255, 0, 166);
     font-size: 14px;  
     :hover {
-        color:rgb(0, 251, 255);
+        background-color:rgb(0, 251, 255);
     }
 }
 
