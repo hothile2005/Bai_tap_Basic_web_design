@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="tinh_toan.js"></script>
+</head>
+<body>
+    <div class="table">
+        Number A(*)
+        <input type="text" name ="" id="a"><br>
+        Number B(*)
+        <input type="text" name="" id="b"><br>
+        <br>
+        Summation:
+            <input type="button" name ="" value="+" onclick="result(cong(getValueA(),getValueB()));">
+        <br>
+        Subtraction:
+            <input type="button" name ="" value="-" onclick="result(tru(getValueA(),getValueB()));">
+        <br>
+        Multiplication: 
+            <input type="button" name ="" value="*" onclick="result(nhan(getValueA(),getValueB()));">
+        <br>
+        Division: 
+            <input type="button" name ="" value="/" onclick="result(chia(getValueA(),getValueB()));">
+        <br>
+        <br>
+        Result A & B: <br>
+        <input type="text" name="" id="result" readonly>
+    </div>
+    <style>
+        .table{
+            border: 1px solid navy;
+            width: 300px;
+            height: auto;
+            background-color: rgba(255, 192, 203, 0.371);
+        }
+
+
+    </style>
+</body>
+</html>
